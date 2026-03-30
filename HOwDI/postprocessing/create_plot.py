@@ -26,7 +26,7 @@ from HOwDI.arg_parse import parse_command_line
 warnings.simplefilter(action="ignore", category=UserWarning)
 
 # Set to True to plot color markers for station delivered cost, False to not plot
-plot_delivered_price=False
+plot_delivered_price=True
 
 def roads_to_gdf(wd):
     """Converts roads.csv into a GeoDataFrame object
